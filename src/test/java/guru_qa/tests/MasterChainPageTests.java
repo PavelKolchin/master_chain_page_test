@@ -137,7 +137,7 @@ public class MasterChainPageTests extends TestBase {
     @Tag("menu")
     void mainMenuLinkTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        String menuItem1 = TestBase.menuItem;
+        String menuItem1 = System.getProperty("menuItem","Цифровые финансовые активы");;
         step("Открываем главную страницу Mster Chain", () -> {
                     open("https://www.dltru.org/");
                 });

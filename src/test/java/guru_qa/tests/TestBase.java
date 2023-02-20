@@ -12,7 +12,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class TestBase {
-    public static String menuItem = System.getProperty("menuItem","Цифровые финансовые активы");
 
     @BeforeAll
     public static void beforeAll() {
@@ -20,7 +19,6 @@ public class TestBase {
         Configuration.browser =  System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browser_vertion", "100");
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
