@@ -1,0 +1,18 @@
+1) Telegram username: @quru_qa_17_bot
+2) Telegram token: 5952981496:AAG4UEV0IDHfvcQCgbjlDUoO3vU9m__MoJM
+3) Chat ID: -1001662118300
+
+    a. Fetch bot updates and look for the chat id:
+
+       curl https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getUpdates | jq .message.chat.id
+       curl https://api.telegram.org/bot5952981496:AAG4UEV0IDHfvcQCgbjlDUoO3vU9m__MoJM/getUpdates | jq .message.chat.id
+
+    b. OR, run bot.rb and @-mention your bot in the chat. The chat id will appear in bot.rb's output.
+       The bot may need temporary message access: @BotFather > Bot Settings > Group Privacy > Turn off
+4) Send a message using the HTTP API: https://core.telegram.org/bots/api#sendmessage
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "123456789", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage
+    curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001662118300", "text": "This is a test from qa.guru", "disable_notification": true}' https://api.telegram.org/bot5952981496:AAG4UEV0IDHfvcQCgbjlDUoO3vU9m__MoJM/sendMessage
+
+ Run jar with notifications
+ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
