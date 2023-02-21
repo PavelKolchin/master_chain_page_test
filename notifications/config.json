@@ -1,8 +1,8 @@
 {
   "base": {
-    "logo": "",
-    "project": "jenkins",
-    "environment": "guru",
+    "logo": "MasterChain",
+    "project": "Master_chain_site",
+    "environment": "Java/Selenide/Jenkins/Selenoid/Telegram",
     "comment": "any comment here, zibly1984@gmail.com",
     "reportLink": "https://jenkins.autotests.cloud",
     "language": "ru",
