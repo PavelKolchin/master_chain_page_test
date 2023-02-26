@@ -93,7 +93,7 @@ Additional parameters:
 [Back to the Contents ⬆](#Contents)
 
 
-## <a name="RunInJenkins">Run in [Jenkins]https://jenkins.autotests.cloud/job/Master_chain_site/)</a>
+## <a name="RunInJenkins">Run in [Jenkins] (https://jenkins.autotests.cloud/job/Master_chain_site/)</a>
 Main page of the build:
 <p  align="center">
 <img src="images/screens/jenkinsHome.PNG" alt="jenkinsHome" width="950">
@@ -218,7 +218,7 @@ Automation trends charts, distribution tests by some different parameters etc.:
 # <a name="Video">Video of running tests</a>
 
 <p align="center">
-<img title="Selenoid Video" src="images/screens/testsVideo.gif" width="1080" height="720"  alt="video"> 
+<img title="Selenoid Video" src="images/screens/testsVideo.gif" width="640" height="288"  alt="video"> 
 </p>
 
 
