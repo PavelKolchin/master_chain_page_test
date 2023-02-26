@@ -93,7 +93,7 @@ Additional parameters:
 [Back to the Contents ⬆](#Contents)
 
 
-## <a name="RunInJenkins">Run in [Jenkins] (https://jenkins.autotests.cloud/job/Master_chain_site/)</a>
+## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/job/Master_chain_site/)</a>
 Main page of the build:
 <p  align="center">
 <img src="images/screens/jenkinsHome.PNG" alt="jenkinsHome" width="950">
